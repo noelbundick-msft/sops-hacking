@@ -20,5 +20,5 @@ spec:
         image: sopshacking.azurecr.io/nginx
         ports:
         - containerPort: 80
-      # imagePullSecrets:
-      #   - name: acrsecret
+      imagePullSecrets:
+        - name: acrsecret
